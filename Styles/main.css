@@ -1,0 +1,1126 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.menu{
+  background-color:#31bb7b;
+}
+.menu>ul{
+  text-align: center;
+}
+.menu>ul:nth-child(2){
+  text-align: center;
+  padding: 15px 15px;
+}
+.menu>ul>li{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  height: 38px;
+  width: 100px;
+  transition: .3s;
+}
+ul{
+  list-style: none;
+}
+a{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition:0.1s;
+  color: white;
+}
+.menu>ul>li>div{
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+  transition: .5s;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border: white solid 2px;
+}
+.menu>ul>li:hover>div, .menu>ul>li.Active>div{
+    width: 80%;
+    height: 23px;
+    opacity: 1;
+}
+li:hover, li.Active {
+  background-color:#4be7ab;
+}
+h1{
+  background-color: #dbbb19;
+  text-align: center;
+  height: 50px;
+  padding: 30px;
+  font-size: 40px;
+}
+fondo{
+  position: absolute;
+  top:0px;
+  bottom: 0;
+  left:0px;
+  margin: 150px 0px;
+  float: left;
+  right: 0px;
+  background-color:   rgb(153, 216, 169);
+  width: 80%px;
+  height: 400px;
+}
+
+div, div img{
+  width: 400px;
+  height: 250px;
+}
+
+/* ---------- */
+.uno1{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left:0;
+  margin: 86PX 200PX;
+  float: left;
+  right: 500px;
+  background-color: rgba(128, 121, 103, 0);
+  overflow: hidden;
+}
+.uno1 img{
+  position: absolute;
+  right: 0;
+  transform: scale(1);
+  transition-duration: 0.5s;
+  overflow: hidden;
+}
+.uno1:hover img{
+  transform: scale(1.3);
+  overflow: hidden;
+}
+.uno1 article{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(114, 199, 224, 0.4);
+  width: 400px;
+  height: 250px;
+  transform: scale(0);
+  transition-duration: .5s;
+  overflow: hidden;
+}
+.uno1:hover article{
+  transform: scale(1);
+  transition-duration: .5s;
+}
+.uno1 article h4{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  color: aliceblue;
+  margin-top: 20px;
+  font-size: 20px;
+  transform: translateY(-210px);
+  transition-duration: 0.6s;
+  transition-delay: .6s;
+  overflow: hidden;
+}
+.uno1:hover article h4{
+  transform: translateY(0);
+}
+.uno1 article p{
+  text-align: justify;
+  padding: 15px 40px;
+  font-size: 12px;
+  margin-top: 10px;
+  font-family: 'Indie Flower', cursive;
+  color: aliceblue;
+  transform: translateY(200px);
+  transition-duration: .6s;
+  transition-delay: .8s;
+}
+.uno1:hover article p{
+  transform: translateY(0);
+}
+.uno1 article a{
+  margin: 25px 150px;
+  margin-top: 170px;
+  background-color: #dbbb19;
+  padding: 0;
+  transform: scale(0);
+  transition-duration: 1s;
+  transition-delay: 1s;
+  font-family: 'Indie Flower', cursive;
+}
+.uno1:hover article a{
+  transform: scale(1);
+}
+
+
+
+
+
+
+
+.uno2{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left:0;
+  margin: 86PX 700PX;
+  float: left;
+  right: 500px;
+  background-color: rgba(128, 121, 103, 0);
+  overflow: hidden;
+}
+.uno2 img{
+  position: absolute;
+  right: 0;
+  transform: scale(1);
+  transition-duration: 0.5s;
+  overflow: hidden;
+}
+.uno2:hover img{
+  transform: scale(1.3);
+  overflow: hidden;
+}
+.uno2 article{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(114, 199, 224, 0.4);
+  width: 400px;
+  height: 250px;
+  transform: scale(0);
+  transition-duration: .5s;
+  overflow: hidden;
+}
+.uno2:hover article{
+  transform: scale(1);
+  transition-duration: .5s;
+}
+.uno2 article h4{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  color: aliceblue;
+  margin-top: 20px;
+  font-size: 20px;
+  transform: translateY(-210px);
+  transition-duration: 0.6s;
+  transition-delay: .6s;
+  overflow: hidden;
+}
+.uno2:hover article h4{
+  transform: translateY(0);
+}
+.uno2 article p{
+  text-align: justify;
+  padding: 15px 40px;
+  font-size: 12px;
+  margin-top: 10px;
+  font-family: 'Indie Flower', cursive;
+  color: aliceblue;
+  transform: translateY(200px);
+  transition-duration: .6s;
+  transition-delay: .8s;
+}
+.uno2:hover article p{
+  transform: translateY(0);
+}
+.uno2 article a{
+  margin: 25px 150px;
+  margin-top: 170px;
+  background-color: #dbbb19;
+  padding: 0;
+  transform: scale(0);
+  transition-duration: 1s;
+  transition-delay: 1s;
+  font-family: 'Indie Flower', cursive;
+}
+.uno2:hover article a{
+  transform: scale(1);
+}
+
+.dos1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: 60px 100px;
+  background-color: rgba(128, 121, 103, 0);
+  float: left;
+  overflow: hidden;
+}
+.dos1 article{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+  height: 250px;
+  background-color: rgba(64, 187, 240,0.4);
+  transform: rotate(90deg) translate(350px ,-350px);
+  transition-duration: .5s;
+  overflow: hidden;
+}
+.dos1:hover article{
+  transform: rotate(0deg) translate(0px);
+}
+.dos1 article h4{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  color: aliceblue;
+  font-size: 20px;
+  padding:20px 20px;
+  transform: translate(280px,-60px) ;
+  transition-duration: .6s;
+  transition-delay: .6s ;
+}
+.dos1:hover article h4{
+  transform: translate(0px);
+}
+.dos1 article p{
+  text-align: justify;
+  padding: 10px 15px;
+  color: aliceblue;
+  font-size: 15px;
+  transform: translateX(-700px) translateY(150px);
+  transition-duration: .6s;
+  transition-delay: .6s;
+}
+.dos1:hover article p{
+  transform: translateX(0px) translateX(0px);
+}
+.dos1 article a{
+  margin: 25px 150px;
+  margin-top: 170px;
+  background-color: #dbbb19;
+  transform: translateY(160px);
+  transition-duration: .6s;
+  transition-delay: .6s;
+  font-family: 'Indie Flower', cursive;
+}
+.dos1:hover article a{
+  transform: translateY(0px);
+}
+
+
+.dos2{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: 60px 700px;
+  background-color: rgba(128, 121, 103, 0);
+  float: left;
+  overflow: hidden;
+}
+.dos2 article{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+  height: 250px;
+  background-color: rgba(64, 187, 240,0.4);
+  transform: rotate(90deg) translate(350px ,-350px);
+  transition-duration: .5s;
+  overflow: hidden;
+}
+.dos2:hover article{
+  transform: rotate(0deg) translate(0px);
+}
+.dos2 article h4{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  color: aliceblue;
+  font-size: 20px;
+  padding:20px 20px;
+  transform: translate(280px,-60px) ;
+  transition-duration: .6s;
+  transition-delay: .6s ;
+}
+.dos2:hover article h4{
+  transform: translate(0px);
+}
+.dos2 article p{
+  text-align: justify;
+  padding: 10px 15px;
+  color: aliceblue;
+  font-size: 15px;
+  transform: translateX(-700px) translateY(150px);
+  transition-duration: .6s;
+  transition-delay: .6s;
+}
+.dos2:hover article p{
+  transform: translateX(0px) translateX(0px);
+}
+.dos2 article a{
+  margin: 25px 150px;
+  margin-top: 170px;
+  padding: 0;
+  background-color: #dbbb19;
+  transform: translateY(160px);
+  transition-duration: .6s;
+  transition-delay: .6s;
+  font-family: 'Indie Flower', cursive;
+}
+.dos2:hover article a{
+  transform: translateY(0px);
+}
+
+.tres1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin:60px 100px;
+  float: left;
+  overflow: hidden;
+}
+.tres1 article{
+  position: absolute;
+  top:0px;
+  width: 400px;
+  height: 250px;
+  transform:  rotate(90deg)  translate(-326px,-325px);
+  background: rgba(147, 255, 250, 0.72);
+  transition-property: transform ;
+  transition-duration: .5s;
+  overflow: hidden;
+}
+.tres1:hover article{
+  transform: rotate(0)  translate(0);
+}
+.tres1 img{
+  position: absolute;
+  transform: scale(1) rotate(0) ;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.tres1:hover img{
+  transform: scale(1.3) rotate(5deg) ;
+}
+.tres1 article h4{
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Indie Flower', cursive;
+  color: aliceblue;
+  transform:  rotate(-90deg)  translate(-326px,-325px);
+  transition-duration: .5s;
+  transition-delay: .5s ;
+}
+.tres1:hover article h4{
+  transform: rotate(0) translate(0);
+}
+.tres1 article p{
+  text-align: justify;
+  padding: 10px 15px;
+  color: aliceblue;
+  font-size: 17px;
+  transform: rotate(90deg)  translate(326px,325px);
+  transition-duration: .4s;
+  transition-delay: .4s;
+}
+.tres1:hover article p{
+  transform: rotate(0) translate(0);
+}
+.tres1 article a{
+  margin: 25px 150px;
+  margin-top: 170px;
+  padding: 0;
+  background-color: #dbbb19;
+  transform: rotate(90deg)  translate(326px,325px);
+  transition-duration: .4s;
+  transition-delay: .4s;
+  font-family: 'Indie Flower', cursive;
+}
+.tres1:hover article a{
+  transform: rotate(0) translate(0);
+}
+
+
+
+
+
+.tres2{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin:60px 700px;
+  float: left;
+  overflow: hidden;
+}
+.tres2 article{
+  position: absolute;
+  top:0px;
+  width: 400px;
+  height: 250px;
+  transform:  rotate(90deg)  translate(-326px,-325px);
+  background: rgba(147, 255, 250, 0.72);
+  transition-property: transform ;
+  transition-duration: .5s;
+  overflow: hidden;
+}
+.tres2:hover article{
+  transform: rotate(0)  translate(0);
+}
+.tres2 img{
+  position: absolute;
+  transform: scale(1) rotate(0) ;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.tres2:hover img{
+  transform: scale(1.3) rotate(5deg) ;
+}
+.tres2 article h4{
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Indie Flower', cursive;
+  color: aliceblue;
+  transform:  rotate(-90deg)  translate(-326px,-325px);
+  transition-duration: .5s;
+  transition-delay: .5s ;
+}
+.tres2:hover article h4{
+  transform: rotate(0) translate(0);
+}
+.tres2 article p{
+  text-align: justify;
+  padding: 10px 15px;
+  color: aliceblue;
+  font-size: 17px;
+  transform: rotate(90deg)  translate(326px,325px);
+  transition-duration: .4s;
+  transition-delay: .4s;
+}
+.tres2:hover article p{
+  transform: rotate(0) translate(0);
+}
+.tres2 article a{
+  margin: 25px 150px;
+  margin-top: 170px;
+  padding: 0;
+  background-color: #dbbb19;
+  transform: rotate(90deg)  translate(326px,325px);
+  transition-duration: .4s;
+  transition-delay: .4s;
+  font-family: 'Indie Flower', cursive;
+}
+.tres2:hover article a{
+  transform: rotate(0) translate(0);
+}
+
+
+.cuatro1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin:60px 100px;
+  float: left;
+  overflow: hidden;
+}
+.cuatro1 article{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(43, 205, 226, 0.4);
+  width: 100%;
+  height: 100%;
+  transform: scale(0) rotate(0deg);
+  transition-duration: .6s;
+  overflow: hidden;
+}
+.cuatro1:hover article{
+  transform:scale(1) rotate(360deg);
+}
+.cuatro1 article h4{
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Indie Flower', cursive;
+  color: aliceblue;
+  font-size: 20px;
+  transform: translateX(270px);
+  transition-duration: .5s;
+  transition-delay: .5s; 
+}
+.cuatro1:hover article h4{
+  transform: translate(0);
+}
+.cuatro1 article p{
+  text-align: justify;
+  padding: 30px 15px;
+  color: aliceblue;
+  font-size: 15px;
+  transform: translateX(-400px);
+  transition-duration: .5s;
+  transition-delay: .5s;
+}
+.cuatro1:hover article p{
+  transform: translate(0);
+}
+.cuatro1 article a{
+  margin: 25px 150px;
+  margin-top: 170px;
+  padding: 0;
+  background-color: #dbbb19;
+  transform: translateY(300PX);
+  transition-duration: .5s;
+  transition-delay: .5s;
+  font-family: 'Indie Flower', cursive;
+}
+.cuatro1:hover article a{
+  transform: translate(0);
+}
+
+
+
+.cuatro2{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin:60px 700px;
+  float: left;
+  overflow: hidden;
+}
+.cuatro2 article{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(43, 205, 226, 0.4);
+  width: 100%;
+  height: 100%;
+  transform: scale(0) rotate(0deg);
+  transition-duration: .6s;
+  overflow: hidden;
+}
+.cuatro2:hover article{
+  transform:scale(1) rotate(360deg);
+}
+.cuatro2 article h4{
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Indie Flower', cursive;
+  color: aliceblue;
+  font-size: 20px;
+  transform: translateX(270px);
+  transition-duration: .5s;
+  transition-delay: .5s; 
+}
+.cuatro2:hover article h4{
+  transform: translate(0);
+}
+.cuatro2 article p{
+  text-align: justify;
+  padding: 30px 15px;
+  color: aliceblue;
+  font-size: 15px;
+  transform: translateX(-400px);
+  transition-duration: .5s;
+  transition-delay: .5s;
+}
+.cuatro2:hover article p{
+  transform: translate(0);
+}
+.cuatro2 article a{
+  margin: 25px 150px;
+  margin-top: 170px;
+  padding: 0;
+  background-color: #dbbb19;
+  transform: translateY(300PX);
+  transition-duration: .5s;
+  transition-delay: .5s;
+  font-family: 'Indie Flower', cursive;
+}
+.cuatro2:hover article a{
+  transform: translate(0);
+}
+
+.cinco1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin:60px 100px;
+  float: left;
+  overflow: hidden;
+}
+
+
+.cinco2{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin:60px 700px;
+  float: left;
+  overflow: hidden;
+}
+.cinco1>article,.cinco2>article{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(64, 187, 240,0.4);
+    transform: translate(-350px ,350px);
+    transition-duration: .5s;
+  }
+  .cinco1:hover>article,.cinco2:hover>article{
+    transform:  translate(0px);
+  }
+  
+  .cinco1>article>h4{
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Amatic SC', cursive;
+    color: aliceblue;
+    padding:20px 20px;
+    transform: scale(0) rotate(360deg);
+    transition-duration:.5s;
+    transition-delay: 1s ;
+  }
+  
+  
+  .cinco2>article>h4{
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Amatic SC', cursive;
+    color: aliceblue;
+    padding:20px 20px;
+    transform: scale(0) rotate(360deg);
+    transition-duration: .5s;
+    transition-delay: 1s ;
+  }
+  .cinco1:hover>article>h4,.cinco2:hover>article>h4{
+
+    transform: scale(1) rotate(0deg);
+  }
+  .cinco1>article>p,.cinco2>article>p{
+    text-align: justify;
+    padding: 10px 15px;
+    color: aliceblue;
+    font-size: 20px;
+    transform: translate(-700px,-390px);
+    transition-duration: 1s;
+    transition-delay: 1s;
+  }
+  .cinco1:hover>article>p,.cinco2:hover>article>p{
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+  .cinco1>article>a,.cinco2>article>a{
+
+      margin: 25px 150px;
+      margin-top: 188px;
+      padding: 0;
+      background-color: #dbbb19;
+      transform: scale(0) rotate(360deg);
+    transition-duration: 1s;
+    transition-delay: 1s ;
+  }
+  .cinco1:hover>article>a,.cinco2:hover>article>a{
+    transform: scale(1) rotate(0deg);
+  }
+  
+
+.seis1{
+
+    position: absolute;
+      left: 0px;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      margin: 60px 100px;
+      background-color: rgba(218, 22, 22, 0);
+      float: left;
+      overflow: hidden;
+    }
+   
+    .seis1>article,.seis2>article{
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      background-color: rgba(196, 93, 178,0.4);
+      width: 100%;
+      height: 100%;
+      transform: scale(0);
+      transition-duration: 0s;
+    }
+    .seis1:hover>article,.seis2:hover>article{
+    transform: scale(1);
+    transition-duration: .5s;
+    background-color: red;
+    
+    }
+    .seis1>article>h4,.seis2>article>h4{
+      text-align: center;
+      font-family: 'Gloria Hallelujah', cursive;
+      font-family: 'Amatic SC', cursive;
+      color: aliceblue;
+      font-size: 20px;
+      transform: scale(0);
+      transition-duration: 0.5s;
+      transition-delay: .6s;
+      overflow: hidden;
+    }
+    .seis1:hover>article>h4,.seis2:hover>article>h4{
+      transform: scale(1);
+    }
+    .seis1>article>p,.seis2>article>p{
+      text-align: justify;
+  
+      font-size: 20px;
+      font-family: 'Gloria Hallelujah', cursive;
+      font-family: 'Amatic SC', cursive;
+      color: aliceblue;
+      transform: scale(0);
+      transition-duration: 0.5s;
+      transition-delay: .6s;
+    }
+    .seis1:hover>article>p,.seis2:hover>article>p{
+      transform: scale(0.8);
+    }
+    .seis1>article>a,.seis2>article>a{
+        margin: 25px 150px;
+        margin-top: 195px;
+        padding: 0;
+        background-color: #dbbb19;
+        transform: scale(0)  rotate(0deg);
+        transition-duration: .5s;
+        transition-delay: .5s;
+        font-family: 'Indie Flower', cursive;
+      }
+    .seis1:hover>article>a,.seis2:hover>article>a{
+   
+      transform: scale(1.5) rotate(360deg);
+    }
+    .seis2{
+      position: absolute;
+      left:0px;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      margin: 60px 700px;
+      background-color: rgba(128, 121, 103, 0);
+      overflow: hidden;
+    }
+
+
+
+
+
+
+
+
+.siete1{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin:60px 100px;
+    float: left;
+    overflow: hidden;
+  }
+
+  .siete1 article{
+    position: absolute;
+    top:0px;
+    width: 400px;
+    height: 250px;
+    transform:  rotate(90deg)  translate(-326px,-325px);
+    background: rgba(147, 255, 250, 0.72);
+    transition-property: transform ;
+    transition-duration: .5s;
+    overflow: hidden;
+  }
+  .siete1:hover article{
+    transform: rotate(0)  translate(0);
+  }
+  .siete1 img{
+    position: absolute;
+    transform: scale(1) rotate(0) ;
+    transition-property: transform;
+    transition-duration: 0.5s;
+  }
+  .siete1:hover img{
+    transform: scale(1.5) rotate(360deg) ;
+  }
+  .siete1 article h4{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Indie Flower', cursive;
+    color: aliceblue;
+    transform:  rotate(-90deg)  translate(-326px,-325px);
+    transition-duration: .5s;
+    transition-delay: .5s ;
+  }
+  .siete1:hover article h4{
+    transform: rotate(0) translate(0);
+    color: purple;
+  }
+  .siete1 article p{
+    text-align: justify;
+    padding: 10px 15px;
+    color: aliceblue;
+    font-size: 17px;
+    transform: rotate(90deg)  translate(326px,325px);
+    transition-duration: .4s;
+    transition-delay: .4s;
+  }
+  .siete1:hover article p{
+    transform: rotate(0) translate(0);
+  }
+  .siete1 article a{
+    margin: 25px 150px;
+    margin-top: 170px;
+    padding: 0;
+    background-color: #dbbb19;
+    transform: rotate(90deg)  translate(326px,325px);
+    transition-duration: .4s;
+    transition-delay: .4s;
+    font-family: 'Indie Flower', cursive;
+  }
+  .siete1:hover article a{
+    transform: rotate(0) translate(0);
+  }
+  
+  
+  .siete2{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin:60px 700px;
+    float: left;
+    overflow: hidden;
+  }
+  .siete2 article{
+    position: absolute;
+    top:0px;
+    width: 400px;
+    height: 250px;
+    transform:  rotate(90deg)  translate(-326px,-325px);
+    background: rgba(147, 255, 250, 0.72);
+    transition-property: transform ;
+    transition-duration: .5s;
+    overflow: hidden;
+  }
+  .siete2:hover article{
+    transform: rotate(0)  translate(0);
+  }
+  .siete2 img{
+    position: absolute;
+    transform: scale(1) rotate(0) ;
+    transition-property: transform;
+    transition-duration: 0.5s;
+  }
+  .siete2:hover img{
+    transform: scale(1.5) rotate(360deg) ;
+  }
+  .siete2 article h4{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Indie Flower', cursive;
+    color: aliceblue;
+    transform:  rotate(-90deg)  translate(-326px,-325px);
+    transition-duration: .5s;
+    transition-delay: .5s ;
+  }
+  .siete2:hover article h4{
+    transform: rotate(0) translate(0);
+    color: purple;
+  }
+  .siete2 article p{
+    text-align: justify;
+    padding: 10px 15px;
+    color: aliceblue;
+    font-size: 17px;
+    transform: rotate(90deg)  translate(326px,325px) scale(1);
+    transition-duration: .4s;
+    transition-delay: .4s;
+  }
+  .siete2:hover article p{
+    transform: rotate(0) translate(0) scale(1);
+  }
+  .siete2 article a{
+    margin: 25px 150px;
+    margin-top: 170px;
+    padding: 0;
+    background-color: #dbbb19;
+    transform: rotate(90deg)  translate(326px,325px);
+    transition-duration: .4s;
+    transition-delay: .4s;
+    font-family: 'Indie Flower', cursive;
+  }
+  .siete2:hover article a{
+    transform: rotate(0) translate(0);
+  }
+  .ocho1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      margin:30px 100px;
+      float: left;
+      overflow: hidden;
+    }
+  
+    .ocho1 article{
+      position: absolute;
+      top:0px;
+      width: 400px;
+      height: 250px;
+      transform:  rotate(90deg)  translate(-326px,-325px);
+      background: rgba(218, 160, 203, 0.72);
+      transition-property: transform ;
+      transition-duration: .5s;
+      overflow: hidden;
+    }
+    .ocho1:hover article{
+      transform: rotate(0)  translate(0) ;
+    }
+    .ocho1 img{
+      position: absolute;
+      transform: scale(1) rotate(0) ;
+      transition-property: transform;
+      transition-duration: 0.5s;
+    }
+    .ocho1:hover img{
+      transform: scale(1.3) rotate(720deg) ;
+    }
+    .ocho1 article h4{
+      text-align: center;
+      margin-top: 30px;
+      font-family: 'Indie Flower', cursive;
+      color: aliceblue;
+      transform:  rotate(-90deg)  translate(-326px,-325px);
+      transition-duration: .5s;
+      transition-delay: .5s ;
+    }
+    .ocho1:hover article h4{
+      transform: rotate(0) translate(0) scale(1.8);
+    }
+    .ocho1 article p{
+      text-align: justify;
+      padding: 10px 15px;
+      color: aliceblue;
+      font-size: 17px;
+      transform: rotate(720deg)  translate(326px,325px);
+      transition-duration: .4s;
+      transition-delay: .4s;
+    }
+    .ocho1:hover article p{
+      transform: rotate(0) translate(0);
+    }
+    .ocho1 article a{
+      margin: 25px 150px;
+      margin-top: 170px;
+      padding: 0;
+      background-color: #dbbb19;
+      transform: rotate(90deg)  translate(326px,325px);
+      transition-duration: .4s;
+      transition-delay: .4s;
+      font-family: 'Indie Flower', cursive;
+    }
+    .ocho1:hover article a{
+      transform: rotate(0) translate(0);
+    }
+    
+    
+    .ocho2{
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      margin:30px 700px;
+      float: left;
+      overflow: hidden;
+    }
+    .ocho2 article{
+      position: absolute;
+      top:0px;
+      width: 400px;
+      height: 250px;
+      transform:  rotate(90deg)  translate(-326px,-325px);
+      background: rgba(218, 160, 203, 0.72);
+      transition-property: transform ;
+      transition-duration: .5s;
+      overflow: hidden;
+    }
+    .ocho2:hover article{
+      transform: rotate(0)  translate(0);
+    }
+    .ocho2 img{
+      position: absolute;
+      transform: scale(1) rotate(0) ;
+      transition-property: transform;
+      transition-duration: 0.5s;
+    }
+    .ocho2:hover img{
+      transform: scale(1.3) rotate(720deg) ;
+    }
+    .ocho2 article h4{
+      text-align: center;
+      margin-top: 30px;
+      font-family: 'Indie Flower', cursive;
+      color: aliceblue;
+      transform:  rotate(-90deg)  translate(-326px,-325px);
+      transition-duration: .5s;
+      transition-delay: .5s ;
+    }
+    .ocho2:hover article h4{
+      transform: rotate(0) translate(0) scale(1.8);
+    }
+    .ocho2 article p{
+      text-align: justify;
+      padding: 10px 15px;
+      color: aliceblue;
+      font-size: 17px;
+      transform: rotate(720deg)  translate(326px,325px);
+      transition-duration: .4s;
+      transition-delay: .4s;
+    }
+    .ocho2:hover article p{
+      transform: rotate(0) translate(0);
+    }
+    .ocho2 article a{
+      margin: 25px 150px;
+      margin-top: 170px;
+      padding: 0;
+      background-color: #dbbb19;
+      transform: rotate(90deg)  translate(326px,325px);
+      transition-duration: .4s;
+      transition-delay: .4s;
+      font-family: 'Indie Flower', cursive;
+    }
+    .ocho2:hover article a{
+      transform: rotate(0) translate(0);
+    }
